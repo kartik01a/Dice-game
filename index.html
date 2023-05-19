@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice challange</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+          <h1 class="heading">Your Chance</h1>
+
+      <div>
+          <input type="text" name="text_1" id="myForm" class="text_p1" placeholder="Value from 1 to 6">
+          <button type="submit" class="btn_p1" onclick="getData()" >Check</button>
+      </div>
+      
+      <div>
+        <div class="dice">
+          <p class="p1">Your Score</p>
+        </div>
+        
+        <div class="dice">
+          <p class="p2">Computer Score</p>
+        </div>
+      </div>
+
+      <div id="x1" class="dice"></div>
+      <div id="x2" class="dice"></div>
+
+    </div>
+
+    <script src="javascript/index.js"></script>
+  </body>
+
+  <footer>
+    Let's try coding
+  </footer>
+</html>
